@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MasterViewController.swift
 //  LifeCycleViewController
 //
 //  Created by nguyễn hữu đạt on 4/26/18.
@@ -8,12 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MasterViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
         print("\(type(of: self)) viewDidLoad")
     }
-    
+
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         print("\(type(of: self)) viewWillAppear")

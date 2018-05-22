@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DetailViewController.swift
 //  LifeCycleViewController
 //
 //  Created by nguyễn hữu đạt on 4/26/18.
@@ -8,7 +8,8 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class DetailViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("\(type(of: self)) viewDidLoad")
